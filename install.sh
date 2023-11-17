@@ -113,12 +113,11 @@ instalando_ambiente_grafico_e_pacotes () {
     for package in "{pacman_list[@]}"; do
       pacman -S "$package" --noconfirm  
     done
-    pacman -S 
 }
 
 enable_system_and_reboot () {
     systemctl enable lightdm
-    systemctl enable Network manager
+    systemctl enable NetworkManager
     systemctl enable bluetooth.service
     exit
     reboot
