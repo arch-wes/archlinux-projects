@@ -67,7 +67,7 @@ gerar_fstab () {
 
 #chroot
 chroot_sistema () {
-    arch-chroot
+    arch-chroot /mnt
 }
 
 #acerta hora o relogio e teclado 
