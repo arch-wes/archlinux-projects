@@ -111,7 +111,7 @@ instalando_ambiente_grafico_e_pacotes () {
 
 enable_system_and_reboot () {
     systemctl enable lightdm
-    systemctl enable Network manager
+    systemctl enable NetworkManager
     systemctl enable bluetooth.service
     exit
     reboot
