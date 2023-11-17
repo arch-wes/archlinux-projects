@@ -65,11 +65,6 @@ gerar_fstab () {
     genfstab -U -p /mnt >> /mnt/etc/fstab
 }
 
-#chroot
-chroot_sistema () {
-    
-}
-
 #acerta hora o relogio e teclado 
 local_hora_teclado(){
     ln -sf /usr/share/zoneinfo/America/ Sao_Paulo /etc/localtime
