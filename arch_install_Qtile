@@ -79,7 +79,7 @@ echo KEYMAP=br-abnt2 >> /etc/vconsole.conf
 
 
 pacman -S grub efibootmgr xorg-server xorg-xinit xorg-apps mesa -y --noconfirm 
-pacman -S xf86-video-amdgpu xdg-user-dirs gvfs qtile -y --noconfirm
+pacman -S xf86-video-amdgpu xdg-user-dirs gvfs qtile alacritty firefox -y --noconfirm
 pacman -S lxappearance intltool nitrogen picom pulseaudio pavucontrol physlock ly -y --noconfirm
 
 
